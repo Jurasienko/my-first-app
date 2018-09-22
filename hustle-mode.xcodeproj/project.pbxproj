@@ -12,6 +12,7 @@
 		1F9276C32154098700A61585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9276C12154098700A61585 /* Main.storyboard */; };
 		1F9276C52154098800A61585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9276C42154098800A61585 /* Assets.xcassets */; };
 		1F9276C82154098800A61585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9276C62154098800A61585 /* LaunchScreen.storyboard */; };
+		1F9276D021540CB800A61585 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F9276CF21540CB800A61585 /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1F9276C42154098800A61585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F9276C72154098800A61585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F9276C92154098800A61585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9276CF21540CB800A61585 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		1F9276BC2154098700A61585 /* hustle-mode */ = {
 			isa = PBXGroup;
 			children = (
+				1F9276CF21540CB800A61585 /* hustle-on.wav */,
 				1F9276BD2154098700A61585 /* AppDelegate.swift */,
 				1F9276BF2154098700A61585 /* ViewController.swift */,
 				1F9276C12154098700A61585 /* Main.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					1F9276B92154098700A61585 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -122,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9276D021540CB800A61585 /* hustle-on.wav in Resources */,
 				1F9276C82154098800A61585 /* LaunchScreen.storyboard in Resources */,
 				1F9276C52154098800A61585 /* Assets.xcassets in Resources */,
 				1F9276C32154098700A61585 /* Main.storyboard in Resources */,
@@ -288,7 +293,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mateuszjur.hustle-mode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -305,7 +310,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mateuszjur.hustle-mode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
